@@ -1,17 +1,16 @@
-from selenium import webdriver
+
 import pytest
 # import pytest-html
-from pydoc import html
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+
 
 
 @pytest.fixture()
 def setup(browser):
-    if browser == 'chrome':
+    if browser=='chrome':
         driver = webdriver.Chrome()
         print("Launching Chrome Browser")
-    elif browser == 'firefox':
+    elif browser=='firefox':
         driver = webdriver.Firefox()
         print("Launching Firefox Browser")
     else:
