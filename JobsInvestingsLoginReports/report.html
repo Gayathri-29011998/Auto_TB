@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">report.html</title>
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">report.html</h1>
+    <p>Report generated on 05-Jul-2024 at 15:32:30 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">31 tests took 00:23:30.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
+            <span class="failed">1 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">30 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.11.4&#34;, &#34;Platform&#34;: &#34;Windows-10-10.0.19045-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;7.4.4&#34;, &#34;pluggy&#34;: &#34;1.3.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.1.1&#34;, &#34;html-reporter&#34;: &#34;0.2.9&#34;, &#34;metadata&#34;: &#34;3.0.0&#34;, &#34;xdist&#34;: &#34;3.5.0&#34;}, &#34;JAVA_HOME&#34;: &#34;C:\\Program Files\\Java\\jdk-20&#34;}, &#34;tests&#34;: {&#34;testCases/test_Logincheck.py::Test_001_Login::test_login&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_Logincheck.py::Test_001_Login::test_login&#34;, &#34;duration&#34;: &#34;00:00:37&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_Logincheck.py::Test_001_Login::test_login&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:37&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_Logincheck.py:29 *************** Test_001_Login *************\nINFO     root:test_Logincheck.py:30 ************** Verifying Home Page Title *************\nINFO     root:test_Logincheck.py:71 Act_URL Is: http://localhost:5173/signin\nINFO     root:test_Logincheck.py:73 *************** Home Page URL Test Failed *************\n\n&#34;}], &#34;testCases/test_Logincheck.py::Test_001_Login::test_loginnegative1&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_Logincheck.py::Test_001_Login::test_loginnegative1&#34;, &#34;duration&#34;: &#34;00:00:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_Logincheck.py::Test_001_Login::test_loginnegative1&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_Logincheck.py:78 *************** Test_001_Login *************\nINFO     root:test_Logincheck.py:79 ************** Verifying Iuput fields *************\nINFO     root:test_Logincheck.py:94 Error Message Is: Email is required\nINFO     root:test_Logincheck.py:98 *************** Username field negative test passed *************\nINFO     root:test_Logincheck.py:106 Error Message Is: Password is required\nINFO     root:test_Logincheck.py:110 *************** Password field negative test passed *************\nINFO     root:test_Logincheck.py:114 *************** Password field negative test failed *************\n\n&#34;}], &#34;testCases/test_Logincheck.py::Test_001_Login::test_loginnegative2&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_Logincheck.py::Test_001_Login::test_loginnegative2&#34;, &#34;duration&#34;: &#34;00:00:34&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_Logincheck.py::Test_001_Login::test_loginnegative2&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:34&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_Logincheck.py:119 *************** Test_001_Login *************\nINFO     root:test_Logincheck.py:120 ************** Verifying Iuput fields *************\nINFO     root:test_Logincheck.py:139 Toast Message Is: Please provide valid email\nINFO     root:test_Logincheck.py:143 *************** Invalid Inputs Test Passed *************\nINFO     root:test_Logincheck.py:159 Toast Message Is: Email or Password is incorrect\nINFO     root:test_Logincheck.py:163 *************** Invalid Inputs Test Passed *************\n\n&#34;}], &#34;testCases/test_applyinvestings.py::Test_Jobs::test_applyinvestingpositive&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyinvestings.py::Test_Jobs::test_applyinvestingpositive&#34;, &#34;duration&#34;: &#34;00:00:46&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyinvestings.py::Test_Jobs::test_applyinvestingpositive&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:46&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyinvestings.py:32 ********** Apply Investings Test - Positive **********\nINFO     root:test_applyinvestings.py:73 Toast Message Is: Successfully Uploaded\nINFO     root:test_applyinvestings.py:75 *********** PDF Upload Test Passed ***********\nINFO     root:test_applyinvestings.py:86 Toast Message Is: You have successfully pitched to this investing\nINFO     root:test_applyinvestings.py:88 *********** You have successfully pitched to this investing Test Passed ***********\nINFO     root:test_applyinvestings.py:93 ********** Apply Investing Test Successfully Passed **********\n\n&#34;}], &#34;testCases/test_applyinvestings.py::Test_Jobs::test_applyinvestingonbehalfof&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyinvestings.py::Test_Jobs::test_applyinvestingonbehalfof&#34;, &#34;duration&#34;: &#34;00:00:47&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyinvestings.py::Test_Jobs::test_applyinvestingonbehalfof&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:47&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyinvestings.py:98 ********** Apply Investings Onbehalfof Test - Positive **********\nINFO     root:test_applyinvestings.py:139 Toast Message Is: Successfully Uploaded\nINFO     root:test_applyinvestings.py:141 *********** PDF Upload Test Passed ***********\nINFO     root:test_applyinvestings.py:158 Toast Message Is: You have successfully pitched to this investing\nINFO     root:test_applyinvestings.py:160 *********** You have successfully pitched to this investing Test Passed ***********\nINFO     root:test_applyinvestings.py:165 ********** Apply Investing Test Successfully Passed **********\n\n&#34;}], &#34;testCases/test_applyinvestings.py::Test_Jobs::test_applyinvestingnegative&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyinvestings.py::Test_Jobs::test_applyinvestingnegative&#34;, &#34;duration&#34;: &#34;00:00:45&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyinvestings.py::Test_Jobs::test_applyinvestingnegative&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:45&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyinvestings.py:170 ********** Apply Investings Test - Negative **********\nINFO     root:test_applyinvestings.py:199 Error Message Is: Amount is required\nINFO     root:test_applyinvestings.py:201 *************** Amount is required Test Passed *************\nINFO     root:test_applyinvestings.py:209 Error Message Is: Stage is required\nINFO     root:test_applyinvestings.py:211 *************** Stage is required Test Passed *************\nINFO     root:test_applyinvestings.py:219 Error Message Is: Sector is required\nINFO     root:test_applyinvestings.py:221 *************** Sector is required Test Passed *************\nINFO     root:test_applyinvestings.py:229 Error Message Is: Description is required\nINFO     root:test_applyinvestings.py:231 *************** Description is required Test Passed *************\nINFO     root:test_applyinvestings.py:255 Error Message Is: Pitch Deck document is required\nINFO     root:test_applyinvestings.py:257 *************** Pitch Deck document is required Test Passed *************\nINFO     root:test_applyinvestings.py:273 Error Message Is: Select On Behalf of dropdown.\nINFO     root:test_applyinvestings.py:275 *************** Select On Behalf of dropdown. Test Passed *************\nINFO     root:test_applyinvestings.py:280 ********** Apply Investing Negative1 Test Successfully Passed **********\n\n&#34;}], &#34;testCases/test_applyinvestings.py::Test_Jobs::test_Saveinvesting&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyinvestings.py::Test_Jobs::test_Saveinvesting&#34;, &#34;duration&#34;: &#34;00:00:26&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyinvestings.py::Test_Jobs::test_Saveinvesting&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:26&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyinvestings.py:285 ********** Save &amp;amp; Unsave Investings Test **********\nINFO     root:test_applyinvestings.py:314 Toast Message Is: You have successfully saved this investing\nINFO     root:test_applyinvestings.py:316 *********** Investing Save Test Passed ***********\nINFO     root:test_applyinvestings.py:329 Toast Message Is: You have successfully unsaved this investing\nINFO     root:test_applyinvestings.py:331 *********** Investing Unsave Test Passed ***********\nINFO     root:test_applyinvestings.py:335 ********** Save &amp;amp; Unsave Investing Test Successfully Passed **********\n\n&#34;}], &#34;testCases/test_applyinvestings.py::Test_Jobs::test_copylinkinvesting&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyinvestings.py::Test_Jobs::test_copylinkinvesting&#34;, &#34;duration&#34;: &#34;00:00:23&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyinvestings.py::Test_Jobs::test_copylinkinvesting&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:23&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyinvestings.py:340 ********** Copy Link Investings Test **********\nINFO     root:test_applyinvestings.py:369 Toast Message Is: Link copied\nINFO     root:test_applyinvestings.py:371 *********** Investing Copy link Test Passed ***********\nINFO     root:test_applyinvestings.py:375 ********** Copy Link Investing Test Successfully Passed **********\n\n&#34;}], &#34;testCases/test_applyinvestings.py::Test_Jobs::test_reviewinvesting&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyinvestings.py::Test_Jobs::test_reviewinvesting&#34;, &#34;duration&#34;: &#34;00:00:35&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyinvestings.py::Test_Jobs::test_reviewinvesting&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:35&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyinvestings.py:380 **********  Write a Review Investings Test - Positive &amp;amp; Negative  **********\nINFO     root:test_applyinvestings.py:411 Toast Message Is: Rating is required\nINFO     root:test_applyinvestings.py:413 *********** Rating is required Test Passed ***********\nINFO     root:test_applyinvestings.py:426 Toast Message Is: Review comment is required.\nINFO     root:test_applyinvestings.py:428 *********** Review comment is required Test Passed ***********\nINFO     root:test_applyinvestings.py:441 Toast Message Is: Investing Reviewed successfully\nINFO     root:test_applyinvestings.py:443 *********** Investing Reviewed successfully  ***********\nINFO     root:test_applyinvestings.py:447 ********** Review Investing Successfully Passed **********\n\n&#34;}], &#34;testCases/test_applyinvestings.py::Test_Jobs::test_reportinvesting&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyinvestings.py::Test_Jobs::test_reportinvesting&#34;, &#34;duration&#34;: &#34;00:00:28&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyinvestings.py::Test_Jobs::test_reportinvesting&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:28&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyinvestings.py:452 **********  Report Investings Test - Positive &amp;amp; Negative  **********\nINFO     root:test_applyinvestings.py:483 Toast Message Is: Please type your comment.\nINFO     root:test_applyinvestings.py:485 *********** Report Comment is required Test Passed ***********\nINFO     root:test_applyinvestings.py:498 Toast Message Is: Investing Reported successfully.\nINFO     root:test_applyinvestings.py:500 *********** Investing Reported successfully. Test Passed ***********\nINFO     root:test_applyinvestings.py:504 ********** Report Investing Test Successfully Passed **********\n\n&#34;}], &#34;testCases/test_applyinvestings.py::Test_Jobs::test_notinterestinvesting&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyinvestings.py::Test_Jobs::test_notinterestinvesting&#34;, &#34;duration&#34;: &#34;00:00:26&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyinvestings.py::Test_Jobs::test_notinterestinvesting&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:26&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyinvestings.py:509 **********  Not Interested Investings Test - Positive  **********\nINFO     root:test_applyinvestings.py:542 Toast Message Is: Investing not interested successfully.\nINFO     root:test_applyinvestings.py:544 *********** Not Interested Investing Test Passed ***********\nINFO     root:test_applyinvestings.py:548 ********** Not Interested Investing Test  Passed Successfully **********\n\n&#34;}], &#34;testCases/test_applyjob.py::Test_Jobs::test_applyjobpositive&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyjob.py::Test_Jobs::test_applyjobpositive&#34;, &#34;duration&#34;: &#34;00:01:01&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyjob.py::Test_Jobs::test_applyjobpositive&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:01&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyjob.py:30 ********** Apply Jobs Test - Positive **********\nINFO     root:test_applyjob.py:60 Toast Message Is: Successfully Uploaded\nINFO     root:test_applyjob.py:62 *********** PDF Upload Test Passed ***********\nINFO     root:test_applyjob.py:73 Toast Message Is: Successfully Uploaded\nINFO     root:test_applyjob.py:75 *********** PDF Upload Test Passed ***********\nINFO     root:test_applyjob.py:92 Toast Message Is: Applied to a Job successfully\nINFO     root:test_applyjob.py:94 *************** Onbehalfof Job Apply test passed *************\nINFO     root:test_applyjob.py:109 Toast Message Is: Job applied successfully\nINFO     root:test_applyjob.py:111 *************** Job Apply test passed *************\nINFO     root:test_applyjob.py:116 ************** Apply Job Test Passed Successfully *************\n\n&#34;}], &#34;testCases/test_applyjob.py::Test_Jobs::test_applyjobnegative&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyjob.py::Test_Jobs::test_applyjobnegative&#34;, &#34;duration&#34;: &#34;00:00:47&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyjob.py::Test_Jobs::test_applyjobnegative&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:47&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyjob.py:120 ********** Apply Jobs Test - Positive **********\nINFO     root:test_applyjob.py:150 Error Message Is: Resume Zip file is required.\nINFO     root:test_applyjob.py:152 *************** Resume Zip file Negative Test Passed *************\nINFO     root:test_applyjob.py:166 Error Message Is: Profile Tracker is required.\nINFO     root:test_applyjob.py:168 *************** Profile Tracker Negative Test Passed *************\nINFO     root:test_applyjob.py:182 Error Message Is: Please enter description\nINFO     root:test_applyjob.py:184 *************** Description Negative Test Passed *************\nINFO     root:test_applyjob.py:198 Error Message Is: Please select OnBehalf of account.\nINFO     root:test_applyjob.py:200 *************** Please select OnBehalf of account Negative Test Passed *************\nINFO     root:test_applyjob.py:205 ************** Apply Job Negative  Test Passed Successfully *************\n\n&#34;}], &#34;testCases/test_applyjob.py::Test_Jobs::test_savejob&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyjob.py::Test_Jobs::test_savejob&#34;, &#34;duration&#34;: &#34;00:00:22&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyjob.py::Test_Jobs::test_savejob&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:22&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyjob.py:210 ********** Apply Job Test - Negative **********\nINFO     root:test_applyjob.py:236 Toast Message Is: Job saved successfully\nINFO     root:test_applyjob.py:238 *************** Job Save test passed *************\nINFO     root:test_applyjob.py:251 Toast Message Is: Job unsaved successfully\nINFO     root:test_applyjob.py:253 *************** Job Apply test passed *************\nINFO     root:test_applyjob.py:260 ************* Save Job &amp;amp; UnSave Jobs Test Successfully Passed *************\n\n&#34;}], &#34;testCases/test_applyjob.py::Test_Jobs::test_copylinkjob&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyjob.py::Test_Jobs::test_copylinkjob&#34;, &#34;duration&#34;: &#34;00:00:20&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyjob.py::Test_Jobs::test_copylinkjob&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:20&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyjob.py:265 ********** Save Jobs &amp;amp; UnSave Jobs Test - Positive **********\nINFO     root:test_applyjob.py:293 Error Message Is: Link copied\nINFO     root:test_applyjob.py:295 *************** Link copied Test Passed *************\nINFO     root:test_applyjob.py:300 ************* Copy Link Test Successfully Passed *************\n\n&#34;}], &#34;testCases/test_applyjob.py::Test_Jobs::test_reviewjob&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyjob.py::Test_Jobs::test_reviewjob&#34;, &#34;duration&#34;: &#34;00:00:37&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyjob.py::Test_Jobs::test_reviewjob&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:37&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyjob.py:305 ********** Review Job Test - Positive &amp;amp; Negative  **********\nINFO     root:test_applyjob.py:335 Error Message Is: Rating is required\nINFO     root:test_applyjob.py:337 *************** Job Rating Negative Test Passed *************\nINFO     root:test_applyjob.py:351 Error Message Is: Review comment is required.\nINFO     root:test_applyjob.py:353 *************** Job Review Negative Test Passed *************\nINFO     root:test_applyjob.py:367 Toast Message Is: Review added.\nINFO     root:test_applyjob.py:369 *************** Review Job Test Passed *************\nINFO     root:test_applyjob.py:374 ************* Job Review Positive &amp;amp; Negative Test Successfully Passed *************\n\n&#34;}], &#34;testCases/test_applyjob.py::Test_Jobs::testreportjob&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_applyjob.py::Test_Jobs::testreportjob&#34;, &#34;duration&#34;: &#34;00:00:29&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyjob.py::Test_Jobs::testreportjob&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:29&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_applyjob.py:379 ********** Report Job Test - Positive **********\nINFO     root:test_applyjob.py:409 Error Message Is: Please type your comment.\nINFO     root:test_applyjob.py:411 *************** Job Report Negative Test Passed *************\nINFO     root:test_applyjob.py:425 Toast Message Is: Job has been Reported\nINFO     root:test_applyjob.py:427 *************** Job Report Positive Test Passed *************\nINFO     root:test_applyjob.py:432 ************* Job Report Positive &amp;amp; Negative Test Successfully Passed *************\n\n&#34;}], &#34;testCases/test_applyjob.py::Test_Jobs::test_notinterestjob&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;testCases/test_applyjob.py::Test_Jobs::test_notinterestjob&#34;, &#34;duration&#34;: &#34;00:00:21&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_applyjob.py::Test_Jobs::test_notinterestjob&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:21&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;testCases.test_applyjob.Test_Jobs object at 0x00000193FF03C810&amp;gt;, setup = &amp;lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&amp;quot;0270344356eac626fb26a25d2cdb0e33&amp;quot;)&amp;gt;\n\n    @pytest.mark.sanity\n    def test_notinterestjob(self, setup): # Not Intesrest The Job Positive\n        self.logger.info(&amp;quot;********** Not Interest Job Test - Positive **********&amp;quot;)\n        self.driver = setup\n        self.driver.get(self.baseURL)\n        self.driver.maximize_window()\n        self.l = Login(self.driver)\n        self.j = Jobs(self.driver)\n        self.aj = Applyjob(self.driver)\n        self.l.clickSignin()\n        time.sleep(1)\n        self.driver.refresh()\n        self.l.setUsername(self.useremail)\n        time.sleep(1)\n        self.l.setPassword(self.password)\n        time.sleep(1)\n        self.l.clickLogin()\n        time.sleep(1)\n        self.j.selectionElement()\n        time.sleep(3)\n        self.j.clickJobButton()\n        time.sleep(3)\n        self.aj.clickJobThreedots()\n        time.sleep(2)\n        self.aj.clickJobNotInterest()\n        time.sleep(2)\n        self.aj.clickjobNotInterestYesButton()\n        time.sleep(2)\n    \n        error_msg = self.driver.find_elements(By.XPATH, &amp;quot;/html/body/div[1]/div/div/div/div[1]/div[2]&amp;quot;)\n        result = error_msg[0].text\n        if result == &amp;quot;Not Interested successfully.&amp;quot;:\n           self.logger.info(&amp;quot;Error Message Is: %s&amp;quot;, result)\n           assert True\n           self.logger.info(&amp;quot;*************** Job Not Interested Test Passed *************&amp;quot;)\n        else:\n&amp;gt;          assert False\nE          assert False\n\ntestCases\\test_applyjob.py:471: AssertionError\n\n------------------------------ Captured log call -------------------------------\nINFO     root:test_applyjob.py:437 ********** Not Interest Job Test - Positive **********\n\n&#34;}], &#34;testCases/test_opencloseapplysave.py::Test_OpenCloseApplySave::test_JobOCAS&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_opencloseapplysave.py::Test_OpenCloseApplySave::test_JobOCAS&#34;, &#34;duration&#34;: &#34;00:00:57&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_opencloseapplysave.py::Test_OpenCloseApplySave::test_JobOCAS&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:57&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_opencloseapplysave.py:31 ********** Open Close Applied Saved Test Started **********\nINFO     root:test_opencloseapplysave.py:65 Error Message Is: Job has been closed successfully.\nINFO     root:test_opencloseapplysave.py:67 *************** Close One Job Test Passed Successfully  *************\nINFO     root:test_opencloseapplysave.py:87 Error Message Is: Job created successfully\nINFO     root:test_opencloseapplysave.py:89 *************** Repost a Job  Test Passed successfully  *************\nINFO     root:test_opencloseapplysave.py:107 ************** Open Close Applied Saved Test Ended Successfully *************\n\n&#34;}], &#34;testCases/test_postinvestings.py::Test_Jobs::test_postinvesting&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postinvestings.py::Test_Jobs::test_postinvesting&#34;, &#34;duration&#34;: &#34;00:01:32&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postinvestings.py::Test_Jobs::test_postinvesting&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:32&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postinvestings.py:38 ********** Post Investings Test - Positive **********\nINFO     root:Postinvestiing.py:66 Is Displayed True\nINFO     root:Postinvestiing.py:68 Is Enabled True\nINFO     root:Postinvestiing.py:78 Is Displayed True\nINFO     root:Postinvestiing.py:80 Is Enabled True\nINFO     root:Postinvestiing.py:105 Is Displayed True\nINFO     root:Postinvestiing.py:107 Is Enabled True\nINFO     root:Postinvestiing.py:118 Is Displayed True\nINFO     root:Postinvestiing.py:120 Is Enabled True\nINFO     root:Postinvestiing.py:153 Is Displayed True\nINFO     root:Postinvestiing.py:155 Is Enabled True\nINFO     root:Postinvestiing.py:171 Is Displayed True\nINFO     root:Postinvestiing.py:173 Is Enabled True\nINFO     root:Postinvestiing.py:188 Is Displayed True\nINFO     root:Postinvestiing.py:190 Is Enabled True\nINFO     root:test_postinvestings.py:124 Toast Message Is: Investing created successfully\nINFO     root:test_postinvestings.py:126 *************** Post Job test passed *************\nINFO     root:test_postinvestings.py:131 ************** Post Job Test Passed Successfully *************\n\n&#34;}], &#34;testCases/test_postinvestings.py::Test_Jobs::test_onbehalfofpostinvesting&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postinvestings.py::Test_Jobs::test_onbehalfofpostinvesting&#34;, &#34;duration&#34;: &#34;00:01:35&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postinvestings.py::Test_Jobs::test_onbehalfofpostinvesting&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:35&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postinvestings.py:136 ********** Onbehalfof Post Investings Test - Positive **********\nINFO     root:Postinvestiing.py:66 Is Displayed True\nINFO     root:Postinvestiing.py:68 Is Enabled True\nINFO     root:Postinvestiing.py:78 Is Displayed True\nINFO     root:Postinvestiing.py:80 Is Enabled True\nINFO     root:Postinvestiing.py:105 Is Displayed True\nINFO     root:Postinvestiing.py:107 Is Enabled True\nINFO     root:Postinvestiing.py:118 Is Displayed True\nINFO     root:Postinvestiing.py:120 Is Enabled True\nINFO     root:Postinvestiing.py:153 Is Displayed True\nINFO     root:Postinvestiing.py:155 Is Enabled True\nINFO     root:Postinvestiing.py:171 Is Displayed True\nINFO     root:Postinvestiing.py:173 Is Enabled True\nINFO     root:Postinvestiing.py:188 Is Displayed True\nINFO     root:Postinvestiing.py:190 Is Enabled True\nINFO     root:test_postinvestings.py:228 Toast Message Is: Investing created successfully\nINFO     root:test_postinvestings.py:230 *************** Post Job test passed *************\nINFO     root:test_postinvestings.py:235 ************** Post Job Test Passed Successfully *************\n\n&#34;}], &#34;testCases/test_postinvestings.py::Test_Jobs::test_postinvestingnegative1&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postinvestings.py::Test_Jobs::test_postinvestingnegative1&#34;, &#34;duration&#34;: &#34;00:00:25&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postinvestings.py::Test_Jobs::test_postinvestingnegative1&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:25&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postinvestings.py:239 ********** Post Investings Test - Negative **********\nINFO     root:test_postinvestings.py:269 Error Message Is: Investor Name is required.\nINFO     root:test_postinvestings.py:271 *************** Investor Name is required test passed successfully *************\nINFO     root:test_postinvestings.py:279 Error Message Is: Investor experience is required\nINFO     root:test_postinvestings.py:281 *************** Investor experience is required test passed successfully *************\nINFO     root:test_postinvestings.py:289 Error Message Is: Investment Type is required\nINFO     root:test_postinvestings.py:291 *************** Investment Type is required test passed successfully *************\nINFO     root:test_postinvestings.py:299 Error Message Is: Total Investment is required\nINFO     root:test_postinvestings.py:301 *************** Total Investment is required test passed successfully *************\nINFO     root:test_postinvestings.py:309 Error Message Is: No. of perviously invested companies is required\nINFO     root:test_postinvestings.py:311 *************** No. of perviously invested companies is required test passed successfully *************\nINFO     root:test_postinvestings.py:319 Error Message Is: Sector is required\nINFO     root:test_postinvestings.py:321 *************** Sector is required test passed successfully *************\nINFO     root:test_postinvestings.py:331 Error Message Is: Evaluation Duration is required\nINFO     root:test_postinvestings.py:333 *************** Evaluation Duration is required test passed successfully *************\nINFO     root:test_postinvestings.py:341 Error Message Is: Currency is required\nINFO     root:test_postinvestings.py:343 *************** Currency is required test passed successfully *************\nINFO     root:test_postinvestings.py:351 Error Message Is: Max Investment value is required.\nINFO     root:test_postinvestings.py:353 *************** Max Investment value is required test passed successfully *************\nINFO     root:test_postinvestings.py:361 Error Message Is: Min Investment value is required.\nINFO     root:test_postinvestings.py:363 *************** Min Investment value is required test passed successfully *************\nINFO     root:test_postinvestings.py:372 Error Message Is: Who can apply is required\nINFO     root:test_postinvestings.py:374 *************** Who can apply is required test passed successfully *************\nINFO     root:test_postinvestings.py:380 ************** Post Job Test Passed Successfully *************\n\n&#34;}], &#34;testCases/test_postinvestings.py::Test_Jobs::test_postinvestingnegative2&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postinvestings.py::Test_Jobs::test_postinvestingnegative2&#34;, &#34;duration&#34;: &#34;00:00:47&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postinvestings.py::Test_Jobs::test_postinvestingnegative2&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:47&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postinvestings.py:385 ********** Post Investings Test - Negative **********\nINFO     root:test_postinvestings.py:431 Error Message Is: Invalid Investor Name\nINFO     root:test_postinvestings.py:433 *************** Invalid Investor Name test passed successfully *************\nINFO     root:test_postinvestings.py:441 Error Message Is: Invalid Investor Experience value.\nINFO     root:test_postinvestings.py:443 *************** Invalid Investor Experience test passed successfully *************\nINFO     root:test_postinvestings.py:451 Error Message Is: Invalid total investment value.\nINFO     root:test_postinvestings.py:453 *************** Invalid total investment test passed successfully *************\nINFO     root:test_postinvestings.py:461 Error Message Is: No. of previously invested companies is should be a number.\nINFO     root:test_postinvestings.py:463 *************** No. of previously invested companies is should be a number test passed successfully *************\nINFO     root:test_postinvestings.py:471 Error Message Is: Invalid evaluation duration.\nINFO     root:test_postinvestings.py:473 *************** Invalid evaluation duration test passed successfully *************\nINFO     root:test_postinvestings.py:481 Error Message Is: Invalid maximum investment value.\nINFO     root:test_postinvestings.py:483 *************** Invalid maximum investment test passed successfully *************\nINFO     root:test_postinvestings.py:491 Error Message Is: Invalid minimum investment value.\nINFO     root:test_postinvestings.py:493 *************** Invalid minimum investment test passed successfully *************\nINFO     root:test_postinvestings.py:507 Error Message Is: Min value should be less than or equal to Max value\nINFO     root:test_postinvestings.py:509 *************** Min value should be less than or equal to Max value test passed successfully *************\nINFO     root:test_postinvestings.py:514 ************** Post Job Test Passed Successfully *************\n\n&#34;}], &#34;testCases/test_postjob.py::Test_Jobs::test_postjob&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postjob.py::Test_Jobs::test_postjob&#34;, &#34;duration&#34;: &#34;00:01:40&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postjob.py::Test_Jobs::test_postjob&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:40&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postjob.py:38 ********** Post Jobs Test - Positive **********\nINFO     root:Postjobs.py:70 Is Displayed True\nINFO     root:Postjobs.py:72 Is Enabled True\nINFO     root:Postjobs.py:98 Is Displayed True\nINFO     root:Postjobs.py:100 Is Enabled True\nINFO     root:Postjobs.py:112 Is Displayed True\nINFO     root:Postjobs.py:114 Is Enabled True\nINFO     root:Postjobs.py:129 Is Displayed True\nINFO     root:Postjobs.py:131 Is Enabled True\nINFO     root:Postjobs.py:144 Is Displayed True\nINFO     root:Postjobs.py:146 Is Enabled True\nINFO     root:Postjobs.py:155 Is Displayed True\nINFO     root:Postjobs.py:157 Is Enabled True\nINFO     root:Postjobs.py:175 Is Displayed True\nINFO     root:Postjobs.py:177 Is Enabled True\nINFO     root:Postjobs.py:186 Is Displayed True\nINFO     root:Postjobs.py:188 Is Enabled True\nINFO     root:Postjobs.py:203 Is Displayed True\nINFO     root:Postjobs.py:205 Is Enabled True\nINFO     root:Postjobs.py:222 Is Displayed True\nINFO     root:Postjobs.py:224 Is Enabled True\nINFO     root:Postjobs.py:245 Is Displayed True\nINFO     root:Postjobs.py:247 Is Enabled True\nINFO     root:Postjobs.py:263 Is Displayed True\nINFO     root:Postjobs.py:265 Is Enabled True\nINFO     root:Postjobs.py:276 Is Displayed True\nINFO     root:Postjobs.py:278 Is Enabled True\nINFO     root:test_postjob.py:112 Toast Message Is: Job created successfully\nINFO     root:test_postjob.py:114 *************** Post Job test passed *************\nINFO     root:test_postjob.py:121 ************** Post Job Test Passed Successfully *************\n\n&#34;}], &#34;testCases/test_postjob.py::Test_Jobs::test_onbehalfofpostjob&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postjob.py::Test_Jobs::test_onbehalfofpostjob&#34;, &#34;duration&#34;: &#34;00:01:54&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postjob.py::Test_Jobs::test_onbehalfofpostjob&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:54&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postjob.py:126 ********** Onbehalfof Post Jobs Test - Positive **********\nINFO     root:Postjobs.py:70 Is Displayed True\nINFO     root:Postjobs.py:72 Is Enabled True\nINFO     root:Postjobs.py:98 Is Displayed True\nINFO     root:Postjobs.py:100 Is Enabled True\nINFO     root:Postjobs.py:112 Is Displayed True\nINFO     root:Postjobs.py:114 Is Enabled True\nINFO     root:Postjobs.py:129 Is Displayed True\nINFO     root:Postjobs.py:131 Is Enabled True\nINFO     root:Postjobs.py:144 Is Displayed True\nINFO     root:Postjobs.py:146 Is Enabled True\nINFO     root:Postjobs.py:155 Is Displayed True\nINFO     root:Postjobs.py:157 Is Enabled True\nINFO     root:Postjobs.py:175 Is Displayed True\nINFO     root:Postjobs.py:177 Is Enabled True\nINFO     root:Postjobs.py:186 Is Displayed True\nINFO     root:Postjobs.py:188 Is Enabled True\nINFO     root:Postjobs.py:203 Is Displayed True\nINFO     root:Postjobs.py:205 Is Enabled True\nINFO     root:Postjobs.py:222 Is Displayed True\nINFO     root:Postjobs.py:224 Is Enabled True\nINFO     root:Postjobs.py:245 Is Displayed True\nINFO     root:Postjobs.py:247 Is Enabled True\nINFO     root:Postjobs.py:263 Is Displayed True\nINFO     root:Postjobs.py:265 Is Enabled True\nINFO     root:Postjobs.py:276 Is Displayed True\nINFO     root:Postjobs.py:278 Is Enabled True\nINFO     root:Postjobs.py:276 Is Displayed True\nINFO     root:Postjobs.py:278 Is Enabled True\nINFO     root:test_postjob.py:211 Toast Message Is: Job created successfully\nINFO     root:test_postjob.py:213 *************** Onbehalfof Post Job test passed *************\nINFO     root:test_postjob.py:218 ************** Onbehalfof Post Job Test Passed Successfully *************\n\n&#34;}], &#34;testCases/test_postjob.py::Test_Jobs::test_jobsnegative1&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postjob.py::Test_Jobs::test_jobsnegative1&#34;, &#34;duration&#34;: &#34;00:00:28&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postjob.py::Test_Jobs::test_jobsnegative1&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:28&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postjob.py:226 ********** Post Jobs Test - Negative **********\nINFO     root:Postjobs.py:263 Is Displayed True\nINFO     root:Postjobs.py:265 Is Enabled True\nINFO     root:test_postjob.py:258 Error Message Is: Designation is required.\nINFO     root:test_postjob.py:260 *************** Designation is required test passed successfully *************\nINFO     root:test_postjob.py:268 Error Message Is: Experience Min is required.\nINFO     root:test_postjob.py:270 *************** Experience Min is required test passed successfully *************\nINFO     root:test_postjob.py:278 Error Message Is: Experience Max is required.\nINFO     root:test_postjob.py:280 *************** Experience Max is required test passed successfully *************\nINFO     root:test_postjob.py:289 Error Message Is: Joining is required\nINFO     root:test_postjob.py:291 *************** Joining is required test passed successfully *************\nINFO     root:test_postjob.py:299 Error Message Is: Employment Type is required\nINFO     root:test_postjob.py:301 *************** Employment Type required test passed successfully *************\nINFO     root:test_postjob.py:309 Error Message Is: Location is required.\nINFO     root:test_postjob.py:311 *************** Location required test passed successfully *************\nINFO     root:test_postjob.py:319 Error Message Is: Currency is required\nINFO     root:test_postjob.py:321 *************** Currency required test passed successfully *************\nINFO     root:test_postjob.py:329 Error Message Is: Salary Min value is required.\nINFO     root:test_postjob.py:331 *************** Salary Min value required test passed successfully *************\nINFO     root:test_postjob.py:339 Error Message Is: Max Salary is required.\nINFO     root:test_postjob.py:341 *************** Max Salary required test passed successfully *************\nINFO     root:test_postjob.py:349 Error Message Is: Requirement should not be blank.\nINFO     root:test_postjob.py:351 *************** Requirement required test passed successfully *************\nINFO     root:test_postjob.py:359 Error Message Is: Responsibility is required.\nINFO     root:test_postjob.py:361 *************** Responsibility required test passed successfully *************\nINFO     root:test_postjob.py:369 Error Message Is: Who can apply is required\nINFO     root:test_postjob.py:371 *************** Who can apply is required test passed successfully *************\nINFO     root:test_postjob.py:376 *************** Successfully Location Negative Test Passed ***************\n\n&#34;}], &#34;testCases/test_postjob.py::Test_Jobs::test_designationnegative&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postjob.py::Test_Jobs::test_designationnegative&#34;, &#34;duration&#34;: &#34;00:01:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postjob.py::Test_Jobs::test_designationnegative&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postjob.py:381 ********** Post Jobs Test - Negative 2 **********\nINFO     root:Postjobs.py:263 Is Displayed True\nINFO     root:Postjobs.py:265 Is Enabled True\nINFO     root:test_postjob.py:417 Error Message Is: Designation Title is very short.\nINFO     root:test_postjob.py:419 *************** Designation Title is very short test passed successfully *************\nINFO     root:test_postjob.py:431 Error Message Is: Designation Title should not exceed 100 letters.\nINFO     root:test_postjob.py:433 *************** Designation Title should 100 letters test passed successfully *************\nINFO     root:test_postjob.py:445 Error Message Is: Invalid Designation.\nINFO     root:test_postjob.py:447 *************** Designation is Invalid test passed successfully *************\nINFO     root:test_postjob.py:452 ************** Designation Test Passed Successfully *************\n\n&#34;}], &#34;testCases/test_postjob.py::Test_Jobs::test_experiencenegative&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postjob.py::Test_Jobs::test_experiencenegative&#34;, &#34;duration&#34;: &#34;00:00:45&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postjob.py::Test_Jobs::test_experiencenegative&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:45&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postjob.py:457 ********** Post Jobs Test Experience - Negative  **********\nINFO     root:Postjobs.py:263 Is Displayed True\nINFO     root:Postjobs.py:265 Is Enabled True\nINFO     root:test_postjob.py:495 Error Message Is: Invalid minimum Experience value.\nINFO     root:test_postjob.py:497 *************** Invalid minimum Experience test passed successfully *************\nINFO     root:test_postjob.py:505 Error Message Is: Invalid maximum experience value.\nINFO     root:test_postjob.py:507 *************** Invalid maximum experience test passed successfully *************\nINFO     root:Postjobs.py:98 Is Displayed True\nINFO     root:Postjobs.py:100 Is Enabled True\nINFO     root:test_postjob.py:521 Error Message Is: Min value should be less than or equal to Max value\nINFO     root:test_postjob.py:523 *************** Min value should be less than or equal to Max value test passed successfully *************\nINFO     root:test_postjob.py:528 *************** Successfully Experience Min &amp;amp; Max Negative Test Passed ***************\n\n&#34;}], &#34;testCases/test_postjob.py::Test_Jobs::test_locationnegative&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postjob.py::Test_Jobs::test_locationnegative&#34;, &#34;duration&#34;: &#34;00:00:35&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postjob.py::Test_Jobs::test_locationnegative&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:35&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postjob.py:533 ********** Post Jobs Test Location - Negative  **********\nINFO     root:Postjobs.py:263 Is Displayed True\nINFO     root:Postjobs.py:265 Is Enabled True\nINFO     root:test_postjob.py:569 Error Message Is: Location should contain only alphabets.\nINFO     root:test_postjob.py:571 *************** Location should contain only alphabets test passed successfully *************\nINFO     root:test_postjob.py:576 *************** Successfully Location Negative Test Passed ***************\n\n&#34;}], &#34;testCases/test_postjob.py::Test_Jobs::test_salaryminmaxnegative&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postjob.py::Test_Jobs::test_salaryminmaxnegative&#34;, &#34;duration&#34;: &#34;00:00:43&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postjob.py::Test_Jobs::test_salaryminmaxnegative&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:43&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postjob.py:581 ********** Post Jobs Test Salary Min &amp;amp; Max - Negative  **********\nINFO     root:Postjobs.py:263 Is Displayed True\nINFO     root:Postjobs.py:265 Is Enabled True\nINFO     root:test_postjob.py:619 Error Message Is: Invalid minimum salary value.\nINFO     root:test_postjob.py:621 *************** Invalid minimum salary value test passed successfully *************\nINFO     root:test_postjob.py:629 Error Message Is: Invalid maximum salary value.\nINFO     root:test_postjob.py:631 *************** Invalid maximum salary value test passed successfully *************\nINFO     root:Postjobs.py:186 Is Displayed True\nINFO     root:Postjobs.py:188 Is Enabled True\nINFO     root:test_postjob.py:645 Error Message Is: Price Min value should be less than or equal to Max value\nINFO     root:test_postjob.py:647 *************** Price Min value should be less than or equal to Max value test passed successfully *************\nINFO     root:test_postjob.py:652 *************** Successfully Salary Min &amp;amp; Max Negative Test Passed ***************\n\n&#34;}], &#34;testCases/test_postjob.py::Test_Jobs::test_requirementresponsiblitiesnegative&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;testCases/test_postjob.py::Test_Jobs::test_requirementresponsiblitiesnegative&#34;, &#34;duration&#34;: &#34;00:00:60&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;testCases/test_postjob.py::Test_Jobs::test_requirementresponsiblitiesnegative&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:60&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\nINFO     root:test_postjob.py:657 ********** Post Jobs Test Requirements &amp;amp; Responsiblities - Negative  **********\nINFO     root:Postjobs.py:263 Is Displayed True\nINFO     root:Postjobs.py:265 Is Enabled True\nINFO     root:test_postjob.py:693 Error Message Is: Job Requirement should be at least 100 characters long.\nINFO     root:test_postjob.py:695 *************** Job Requirement should be at least 100 characters long test passed successfully *************\nINFO     root:test_postjob.py:707 Error Message Is: Requirement should not be empty.\nINFO     root:test_postjob.py:709 *************** Requirement should not be empty test passed successfully *************\nINFO     root:test_postjob.py:729 Error Message Is: Responsibility is very short. Required at least 100 characters.\nINFO     root:test_postjob.py:731 *************** Responsibility is very short. Required at least 100 characters test passed successfully *************\nINFO     root:test_postjob.py:736 *************** Successfully Requirements &amp;amp; Responsiblities Negative Test Passed ***************\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
