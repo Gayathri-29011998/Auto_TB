@@ -24,7 +24,7 @@ class Test_001_Login:
 
     logger = LogGen.loggen()
 
-    #@pytest.mark.sanity
+    @pytest.mark.sanity
     def test_login(self, setup):
         self.logger.info("*************** Test_001_Login *************")
         self.logger.info("************** Verifying Home Page Title *************")
