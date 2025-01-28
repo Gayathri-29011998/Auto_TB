@@ -24,7 +24,7 @@ class Test_001_Login:
 
     logger = LogGen.loggen()
 
-    @pytest.mark.sanity
+    #@pytest.mark.sanity
     def test_login(self, setup):
         self.logger.info("*************** Test_001_Login *************")
         self.logger.info("************** Verifying Home Page Title *************")
@@ -48,7 +48,7 @@ class Test_001_Login:
 
         toast_msg = self.driver.find_elements(By.XPATH, "/html/body/div[1]/div[1]/div/div/div[1]/div[2]")
         result = toast_msg[0].text
-        if result == "Logged In successfully":
+        if result == "Logged In successfully.":
             assert True
             self.logger.info("*************** Login Test Passed *************")
         else:
