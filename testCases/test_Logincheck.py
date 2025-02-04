@@ -11,6 +11,7 @@ from utilities.readproperties import ReadConfig
 import configparser
 from utilities.customLogger import LogGen
 
+
 config = configparser.ConfigParser()
 config.read('C:\\Users\\user\\PycharmProjects\\python framework\\configurations\\config.ini')
 

@@ -2,7 +2,7 @@
 import pytest
 # import pytest-html
 from selenium import webdriver
-
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 
@@ -10,6 +10,8 @@ from selenium import webdriver
 @pytest.fixture()
 def setup(browser):
     if browser=='chrome':
+        # driver_path = "C:\\path\\to\\chromedriver.exe"
+        # driver = webdriver.Chrome(executable_path=driver_path)
         driver = webdriver.Chrome()
         print("Launching Chrome Browser")
     elif browser=='firefox':
